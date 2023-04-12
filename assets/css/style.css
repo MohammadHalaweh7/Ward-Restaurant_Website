@@ -1,0 +1,617 @@
+/* Mohammad Rami Halaweh - 00970598939763 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    src: url(../fonts/Metropolis-SemiBoldItalic.otf);
+    font-family: matro;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Noto+Sans+Arabic&display=swap');
+
+body {
+    font-family: 'Alegreya', serif;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* ************************* Start header******************************* */
+
+.header {
+    background-image: url('../images/wardBackground.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+
+.overlay {
+    background-color: rgb(0, 0, 0, 0.4);
+    /* height: 100%; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+/************************** Start Navbar********************************/
+.header .navbar {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+
+.header .navbar .logo {
+    margin-right: 400px;
+}
+
+
+.header .navbar .logo img {
+    width: 25%;
+    margin-top: 5px;
+}
+
+
+.header .navbar .nav ul {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.header .navbar .nav li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.header .navbar .nav li a:hover {
+    color: rgb(234, 185, 1);
+}
+
+
+/************************** End Navbar********************************/
+
+
+/************************** Start header content ********************************/
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.header-content img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.header h1 {
+    font-size: 76px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.header p {
+    font-family: 'Moon Dance', cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+
+.both-button {
+    padding: 20px 30px;
+    border: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+
+.learn-more-button {
+    background-color: rgb(234, 185, 1);
+    border: none;
+    color: white;
+}
+
+
+.learn-more-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/************************** End header content ********************************/
+
+
+/************************** End header********************************/
+
+
+/* Start about section */
+.about .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 240px;
+}
+
+
+.about .container .about-img {
+    width: 24%;
+}
+
+
+.about .container .about-content h2,
+.reviewers .container .reviewers-content h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+.about .container .about-content .first-para,
+.reviewers .container .reviewers-content .first-para {
+    font-family: 'Moon Dance', cursive;
+    font-size: 30px;
+    color: rgb(234, 185, 1);
+    margin-bottom: 5px;
+}
+
+
+.about .container .about-content .second-para,
+.reviewers .container .reviewers-content .second-para {
+    width: 520px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+
+.about .container .about-content ul li,
+.reviewers .container .reviewers-content ul li {
+    width: 80%;
+    display: flex;
+    margin-bottom: 20px;
+    column-gap: 20px;
+}
+
+
+.about .container .about-content ul li i {
+    background-color: #c1ab84;
+    width: 45px;
+    height: 45px;
+    background-color: #c1ab84;
+    border-radius: 50%;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about .container .about-content ul li span {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+/* End about section */
+
+
+/* Start Reviewers section  */
+.reviewers {
+    background-color: rgb(233, 233, 233, 0.9);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0 0 15px rgba(198, 198, 198, 0.9);
+}
+
+.reviewers .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
+
+
+.reviewers .container .reviewers-content ul li i {
+    color: #c1ab84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reviewers .container .reviewers-content ul li span {
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+
+.reviewers .container .reviewers-img img {
+    width: 460px;
+}
+
+/* End Reviewers section  */
+
+
+/* Start Cover section */
+.cover {
+    height: 50vh;
+    background-image: url('../images/ward9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* End Cover section */
+
+
+/* Start dishes section */
+.dishes .container {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.dishes .container h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+
+
+.dishes .container .dishes-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 60px;
+}
+
+
+.dishes .container .dishes-content .dish {
+    padding: 7px;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.dishes .container .first-para {
+    font-family: 'Moon Dance', cursive;
+    color: rgb(234, 185, 1);
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+
+.dishes .container .dishes-content .dish img {
+    width: 350px;
+    margin-bottom: 27px;
+}
+
+
+.dishes .container .dishes-content .dish .title-dish {
+    text-transform: capitalize;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+
+.dishes .container .dishes-content .dish .description-dish {
+    width: 350px;
+    margin: auto;
+    line-height: 30px;
+
+}
+
+/* End dishes section */
+
+
+/* Start gallery section */
+.gallery {
+    height: 50vh;
+    background-image: url('../images/ward12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.gallery .overlay {
+    background-color: rgb(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallery .overlay .gallery-content {
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+.gallery .overlay .gallery-content i {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+
+.gallery .overlay .gallery-content .gallery-title {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+
+.gallery .overlay .gallery-content .gallery-para {
+    font-size: 25px;
+    margin-bottom: 25px;
+    display: block;
+    width: 58%;
+    line-height: 40px;
+    margin: auto;
+}
+
+/* End gallery section */
+
+
+/* Start control section */
+.control {
+    width: 40px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(198, 198, 198, 0.9);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+
+    position: fixed;
+    top: 120px;
+    right: 0;
+}
+
+
+.control .control-content {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.control .control-content i {
+    display: block;
+    color: gray;
+    font-size: 21px;
+}
+
+
+.control .control-content i:hover {
+    font-size: 24px;
+    color: rgb(234, 185, 1);
+}
+
+
+.control .control-content i:active {
+    color: #c1ab84;
+}
+
+.control .control-content .first-i {
+    margin-bottom: 8px;
+    margin-left: 3px;
+}
+
+/* End control section */
+
+
+/* Start map section */
+.map {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.map .container {
+    display: flex;
+
+    column-gap: 65px;
+}
+
+.map .container .map-content .map-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.map .container .map-content .map-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.map .container .map-content .map-contact-para {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.map .container .map-content ul li {
+    margin-bottom: 25px;
+}
+
+.map .container .map-content ul li i {
+    background-color: #c1ab84;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.map .container .map-content ul li span {
+    margin-left: 12px;
+}
+
+.map .container .the-map iframe {
+
+    width: 600px;
+    height: 450px;
+    box-shadow: 0 0 15px rgba(198, 198, 198, 0.9);
+}
+
+/* End map section */
+
+
+/* Start about section */
+
+.aboutUS {
+    height: 500px;
+    background-color: rgb(74, 74, 74);
+}
+
+.aboutUS .container .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    column-gap: 50px;
+}
+
+
+.aboutUS .container .about-content h3 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+.aboutUS .container .about-content ul {
+    color: rgb(195, 195, 195);
+}
+
+
+.aboutUS .container .about-content ul li {
+    margin-bottom: 30px;
+}
+
+
+.aboutUS .container .about-content ul li i {
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+
+.aboutUS .container .about-content .about-us .about-us-first-para {
+    color: rgb(195, 195, 195);
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+
+.aboutUS .container .about-content .about-us .about-us-second-para {
+    color: rgb(195, 195, 195);
+    width: 300px;
+}
+
+
+.aboutUS .container .about-content .useful-links ul a {
+    color: rgb(195, 195, 195);
+}
+
+/* End about us section */
+
+
+/* Start Footer section */
+.footer {
+    height: 500px;
+    background-color: rgb(49, 49, 49);
+    position: relative;
+}
+
+
+.footer .container .footer-content {
+    color: white;
+    font-size: 20px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+.footer .container .footer-content .footer-para {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.footer .container .footer-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    width: 290px;
+    margin-left: 15px;
+}
+
+
+.footer .container .footer-content ul li i {
+    padding: 20px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 50%;
+}
+
+
+.footer .container .footer-content ul li i:hover {
+    color: rgb(234, 185, 1);
+    font-size: 23px;
+    cursor: pointer;
+}
+
+/* End Footer section */

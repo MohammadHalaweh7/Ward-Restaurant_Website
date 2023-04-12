@@ -1,0 +1,523 @@
+/* Mohammad halaweh */
+/* ---------------------------------------------Media Query--------------------------------------------- */
+
+@media (min-width:0px) and (max-width:480px) {
+    .container {
+        width: 90%;
+    }
+
+    .header .navbar {
+        display: block;
+    }
+
+    .header .navbar .logo img {
+        display: none;
+    }
+
+    .header .navbar .nav {
+        width: 370px;
+        margin: auto;
+    }
+
+    .header .navbar .nav ul {
+
+        margin-top: 0px;
+
+    }
+
+    .header .navbar .nav li a {
+        font-size: 14px;
+
+    }
+
+    .header p {
+        font-size: 30px;
+    }
+
+    .both-button {
+        padding: 15px 25px;
+        margin-top: 90px;
+        margin-right: 10px;
+    }
+
+    /* ----------------------------- */
+    .about .container {
+
+        text-align: center;
+    }
+
+
+    .about .container .about-img {
+        display: none;
+    }
+
+
+    .about .container .about-content h2,
+    .reviewers .container .reviewers-content h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+
+    }
+
+
+    .about .container .about-content .first-para,
+    .reviewers .container .reviewers-content .first-para {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .about .container .about-content .second-para,
+    .reviewers .container .reviewers-content .second-para {
+        width: 350px;
+        margin-bottom: 140px;
+    }
+
+
+    .about .container .about-content ul li,
+    .reviewers .container .reviewers-content ul li {
+        width: 100%;
+    }
+
+    /* -------------------------------------- */
+
+
+    .reviewers .container {
+
+        display: block;
+    }
+
+
+    .reviewers .container .reviewers-content ul li span {
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    .reviewers .container .reviewers-img img {
+        display: none;
+    }
+
+    /* ---------------------------------------------------------- */
+    /* gallery */
+    .gallery .overlay .gallery-content i {
+        font-size: 30px;
+    }
+
+
+    .gallery .overlay .gallery-content .gallery-title {
+        font-size: 30px;
+    }
+
+
+    .gallery .overlay .gallery-content .gallery-para {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    /* ----------------------------------------- */
+    /* map */
+
+
+    .map .container {
+        display: block;
+    }
+
+    .map .container .map-content .map-title {
+        text-align: center;
+    }
+
+    .map .container .map-content .map-description {
+        text-align: center;
+    }
+
+
+    .map .container .map-content ul {
+        margin-bottom: 50px;
+    }
+
+    .map .container .the-map {
+
+        text-align: center;
+    }
+
+    .map .container .the-map iframe {
+        width: 300px;
+        height: 150px;
+
+    }
+
+    /* ---------------------- */
+    /* about us */
+    .aboutUS {
+        height: 1200px;
+    }
+
+    .aboutUS .container .about-content {
+        row-gap: 50px
+    }
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .container {
+        width: 90%;
+    }
+
+
+
+    .header .navbar {
+        display: block;
+    }
+
+    .header .navbar .logo img {
+        display: none;
+    }
+
+    .header .navbar .nav {
+        width: 370px;
+        margin: auto;
+    }
+
+    .header .navbar .nav ul {
+
+        margin-top: 0px;
+
+    }
+
+    .header .navbar .nav li a {
+        font-size: 14px;
+
+    }
+
+    .header p {
+        font-size: 30px;
+    }
+
+    .both-button {
+        padding: 15px 25px;
+        margin-top: 90px;
+        margin-right: 10px;
+    }
+
+    /* ----------------------------- */
+    .about .container {
+
+        text-align: center;
+    }
+
+
+    .about .container .about-img {
+        display: none;
+    }
+
+
+    .about .container .about-content h2,
+    .reviewers .container .reviewers-content h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+    }
+
+
+    .about .container .about-content .first-para,
+    .reviewers .container .reviewers-content .first-para {
+        margin-bottom: 20px;
+    }
+
+
+    .about .container .about-content .second-para,
+    .reviewers .container .reviewers-content .second-para {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .about .container .about-content ul li,
+    .reviewers .container .reviewers-content ul li {
+        width: 100%;
+    }
+
+    /* -------------------------------------- */
+
+
+    .reviewers .container {
+        text-align: center;
+        width: 90%;
+        display: block;
+    }
+
+    .reviewers .container .reviewers-content {
+        width: 90%;
+        margin: auto;
+
+    }
+
+
+    .reviewers .container .reviewers-content ul {
+        width: 42%;
+        margin: auto;
+    }
+
+    .reviewers .container .reviewers-content ul li {
+        margin: auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .reviewers .container .reviewers-content ul li span {
+        margin-top: 5px;
+        font-size: 14px;
+
+    }
+
+    .reviewers .container .reviewers-img img {
+        display: none;
+    }
+
+    /* ---------------------------------------------------------- */
+    /* gallery */
+    .gallery .overlay .gallery-content i {
+        font-size: 30px;
+    }
+
+
+    .gallery .overlay .gallery-content .gallery-title {
+        font-size: 30px;
+    }
+
+
+    .gallery .overlay .gallery-content .gallery-para {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    /* ----------------------------------------- */
+    /* map */
+
+
+    .map .container {
+        display: block;
+
+    }
+
+    .map .container .map-content .map-title {
+        text-align: center;
+    }
+
+    .map .container .map-content .map-description {
+        text-align: center;
+    }
+
+
+    .map .container .map-content ul {
+        margin-bottom: 50px;
+    }
+
+    .map .container .the-map {
+
+        text-align: center;
+    }
+
+    .map .container .the-map iframe {
+        width: 300px;
+        height: 150px;
+
+    }
+
+    /* ---------------------- */
+    /* about us */
+    .aboutUS {
+        height: 1200px;
+    }
+
+    .aboutUS .container .about-content {
+        row-gap: 50px
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width:769px) and (max-width:1279px) {
+    .container {
+        width: 90%;
+    }
+
+
+
+    .header .navbar {
+        display: block;
+    }
+
+    .header .navbar .logo img {
+        display: none;
+    }
+
+    .header .navbar .nav {
+        width: 370px;
+        margin: auto;
+    }
+
+    .header .navbar .nav ul {
+
+        margin-top: 0px;
+
+    }
+
+    .header .navbar .nav li a {
+        font-size: 14px;
+
+    }
+
+    .header p {
+        font-size: 30px;
+    }
+
+    .both-button {
+        padding: 15px 25px;
+        margin-top: 90px;
+        margin-right: 10px;
+    }
+
+    /* ----------------------------- */
+    .about .container {
+
+        text-align: center;
+    }
+
+
+    .about .container .about-img {
+        display: none;
+    }
+
+
+    .about .container .about-content h2,
+    .reviewers .container .reviewers-content h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+    }
+
+
+    .about .container .about-content .first-para,
+    .reviewers .container .reviewers-content .first-para {
+        margin-bottom: 20px;
+    }
+
+
+    .about .container .about-content .second-para,
+    .reviewers .container .reviewers-content .second-para {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .about .container .about-content ul li,
+    .reviewers .container .reviewers-content ul li {
+        width: 100%;
+    }
+
+    /* -------------------------------------- */
+
+
+    .reviewers .container {
+        text-align: center;
+        width: 90%;
+        display: block;
+    }
+
+    .reviewers .container .reviewers-content {
+        width: 90%;
+        margin: auto;
+
+    }
+
+
+    .reviewers .container .reviewers-content ul {
+        width: 42%;
+        margin: auto;
+    }
+
+    .reviewers .container .reviewers-content ul li {
+        margin: auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .reviewers .container .reviewers-content ul li span {
+        margin-top: 5px;
+        font-size: 14px;
+
+    }
+
+    .reviewers .container .reviewers-img img {
+        display: none;
+    }
+
+    /* ----------------------------------------- */
+    /* map */
+
+
+    .map .container {
+        display: block;
+    }
+
+    .map .container .map-content .map-title {
+        text-align: center;
+    }
+
+    .map .container .map-content .map-description {
+        text-align: center;
+    }
+
+
+    .map .container .map-content ul {
+        margin-bottom: 50px;
+    }
+
+    .map .container .the-map {
+
+        text-align: center;
+    }
+
+    .map .container .the-map iframe {
+        width: 300px;
+        height: 150px;
+
+    }
+
+    /* --------------------------------------- */
+    /* About us */
+
+    .aboutUS {
+        height: 900px;
+    }
+
+
+
+
+
+
+}
+
+
+@media (min-width:769px) and (max-width:1279px) {}
+
+@media (min-width:1280px) {}
+
+/* -----------------------------------------------End--------------------------------------- */
